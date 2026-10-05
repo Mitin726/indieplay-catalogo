@@ -12,42 +12,42 @@ const juegosIndie = [
     id: 1,
     titulo: "Hollow Knight",
     estudio: "Team Cherry",
-    imagen: "https://placehold.co/300x200/121212/38BDF8?text=Hollow+Knight",
+    imagen: "https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/7dc1dbea-b5fc-4c8f-8768-1a5c3ede53e3/HK_header.jpg",
     accion: "Jugar"
   },
   {
     id: 2,
     titulo: "Celeste",
     estudio: "Extremely OK Games",
-    imagen: "https://placehold.co/300x200/121212/8A2BE2?text=Celeste",
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Celeste_box_art_full.png",
     accion: "Ver Detalles"
   },
   {
     id: 3,
     titulo: "Stardew Valley",
     estudio: "ConcernedApe",
-    imagen: "https://placehold.co/300x200/1E1E1E/38BDF8?text=Stardew+Valley",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
     accion: "Jugar"
   },
   {
     id: 4,
     titulo: "Hades",
     estudio: "Supergiant Games",
-    imagen: "https://placehold.co/300x200/1E1E1E/8A2BE2?text=Hades",
+    imagen: "https://images.igdb.com/igdb/image/upload/t_original/cob9kr.webp",
     accion: "Ver Detalles"
   },
   {
     id: 5,
     titulo: "Undertale",
     estudio: "tobyfox",
-    imagen: "https://placehold.co/300x200/121212/38BDF8?text=Undertale",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg",
     accion: "Jugar"
   },
   {
     id: 6,
     titulo: "Dead Cells",
     estudio: "Motion Twin",
-    imagen: "https://placehold.co/300x200/121212/8A2BE2?text=Dead+Cells",
+    imagen: "https://api.playdigious.com/storage/dedup/58df341631f8501d16622eca8322aedaf5243ff13f5c17c49897a10a4c8f582f.webp",
     accion: "Ver Detalles"
   }
 ];

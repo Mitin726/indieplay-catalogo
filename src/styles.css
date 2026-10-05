@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.header {
+  background-color: #1E1E1E;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #8A2BE2;
+}
+
+.btn-login {
+  background-color: #38BDF8;
+  color: #121212;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #289ccf;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1E1E1E;
+  padding: 2rem 1.5rem;
+  border-right: 1px solid #333;
+}
+
+.sidebar-menu ul {
+  list-style: none;
+}
+
+.sidebar-menu li {
+  margin-bottom: 1.2rem;
+}
+
+.sidebar-menu a {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.sidebar-menu a:hover {
+  color: #8A2BE2;
+}
+
+.dashboard {
+  flex: 1;
+  padding: 2rem;
+}
+
+.dashboard-title {
+  color: #38BDF8;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.game-card {
+  background-color: #1E1E1E;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid transparent;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+  border-color: #8A2BE2;
+  box-shadow: 0 8px 15px rgba(138, 43, 226, 0.2);
+}
+
+.game-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.game-info {
+  padding: 1.5rem;
+}
+
+.game-title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.game-developer {
+  color: #aaaaaa;
+  margin-bottom: 1.2rem;
+  font-size: 0.9rem;
+}
+
+.btn-action {
+  width: 100%;
+  background-color: transparent;
+  color: #8A2BE2;
+  border: 2px solid #8A2BE2;
+  padding: 0.6rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-action:hover {
+  background-color: #8A2BE2;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #333;
+    padding: 1rem;
+  }
+  
+  .sidebar-menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .sidebar-menu li {
+    margin-bottom: 0;
+  }
+
+  .header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}
