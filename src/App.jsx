@@ -12,14 +12,14 @@ const juegosIndie = [
     id: 1,
     titulo: "Hollow Knight",
     estudio: "Team Cherry",
-    imagen: "https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/7dc1dbea-b5fc-4c8f-8768-1a5c3ede53e3/HK_header.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg",
     accion: "Jugar"
   },
   {
     id: 2,
     titulo: "Celeste",
     estudio: "Extremely OK Games",
-    imagen: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Celeste_box_art_full.png",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg",
     accion: "Ver Detalles"
   },
   {
@@ -31,23 +31,51 @@ const juegosIndie = [
   },
   {
     id: 4,
-    titulo: "Hades",
-    estudio: "Supergiant Games",
-    imagen: "https://images.igdb.com/igdb/image/upload/t_original/cob9kr.webp",
+    titulo: "Undertale",
+    estudio: "tobyfox",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg",
     accion: "Ver Detalles"
   },
   {
     id: 5,
-    titulo: "Undertale",
-    estudio: "tobyfox",
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg",
+    titulo: "Dead Cells",
+    estudio: "Motion Twin",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg",
     accion: "Jugar"
   },
   {
     id: 6,
-    titulo: "Dead Cells",
-    estudio: "Motion Twin",
-    imagen: "https://api.playdigious.com/storage/dedup/58df341631f8501d16622eca8322aedaf5243ff13f5c17c49897a10a4c8f582f.webp",
+    titulo: "Terraria",
+    estudio: "Re-Logic",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
+    accion: "Ver Detalles"
+  },
+  {
+    id: 7,
+    titulo: "Cuphead",
+    estudio: "Studio MDHR",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg",
+    accion: "Jugar"
+  },
+  {
+    id: 8,
+    titulo: "The Binding of Isaac: Rebirth",
+    estudio: "Nicalis, Inc.",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg",
+    accion: "Ver Detalles"
+  },
+  {
+    id: 9,
+    titulo: "Shovel Knight",
+    estudio: "Yacht Club Games",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250760/header.jpg",
+    accion: "Jugar"
+  },
+  {
+    id: 10,
+    titulo: "Blasphemous",
+    estudio: "The Game Kitchen",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774361/header.jpg",
     accion: "Ver Detalles"
   }
 ];
